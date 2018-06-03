@@ -1,0 +1,8 @@
+html
+  body 
+    h1=title
+    form(method="post" action="/api/notes/1")
+      input#notes.form-control(type="text" placeholder="title" name="title")
+      input#notes.form-control(type="text" placeholder="enter body" name="body")
+
+      button(type="submit") Submit
